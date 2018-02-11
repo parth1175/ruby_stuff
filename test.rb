@@ -1,18 +1,25 @@
-poem = "this is a longass line of words"
-Poem = poem.split(" ")
+class Testing
 
-i = 0
-j = 0
-while i<Poem.length do
-      puts Poem[i]
-      i+=1
+  def initialize
+  end
+
+  def self.hfgh(gaf)
+    puts "hello" + gaf
+  end
+
+  def ty(hh)
+    puts "eat it"
+  end
+
+  def get_name
+    puts "your name is #{first_name}"
+  end
 end
 
-puts " "
-puts " "
-puts " "
+t = Testing.new
 
-while j<Poem.length do
-      puts Poem[j].chars
-      j+=1
-end
+hah = "world"
+t.hfgh(hah)
+
+t = Testing.new
+t.ty(hah)
